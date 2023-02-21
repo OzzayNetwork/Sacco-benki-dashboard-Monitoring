@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from byrushan.com/projects/material-admin/app/2.6/top-navigation.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 26 Jul 2019 11:35:00 GMT -->
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>SaccoBenki</title>
+    <link rel='icon' href='demo/img/icon_3.png' type='image/x-icon' />
+
+
+    <!-- icon files -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/icon_fonts/css/icon_set_1.css">
+    <link rel="stylesheet" href="css/icon_fonts/css/icon_set_2.css">
+    <link rel="stylesheet" href="css/icon_fonts/css/icon_set_3.css">
+    <link rel="stylesheet" href="css/icon_fonts/css/icon_set_4.css">
+    <link rel="stylesheet" href="css/flaticon-font/flaticon.css">
+
+    <!-- Vendor styles -->
+    <link rel="stylesheet" href="vendors/material-design-iconic-font/css/material-design-iconic-font.min.css">
+    <link rel="stylesheet" href="vendors/MaterialDesign-Webfont-master/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="vendors/animate.css/animate.min.css">
+    <link rel="stylesheet" href="vendors/jquery-scrollbar/jquery.scrollbar.css">
+    <link rel="stylesheet" href="vendors/fullcalendar/fullcalendar.min.css">
+    <link rel="stylesheet" href="vendors/bootstrap-select/css/bootstrap-select.min.css">
+
+
+    <!-- // Add the new slick-theme.css if you want the default styling -->
+    <link rel="stylesheet" href="vendors/slick/slick.css" />
+    <link rel="stylesheet" href="vendors/slick/slick-theme.css" />
+
+    <!-- <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/> -->
+
+    <!-- App styles -->
+    <link rel="stylesheet" href="css/app.min.css">
+    <link rel="stylesheet" href="css/top-navigation.css">
+    <link rel="stylesheet" href="css/daterangepicker.css">
+
+</head>
+
+<body data-ma-theme="green">
+    <main class="main main--alt">
+        <div class="page-loader">
+            <div class="page-loader__spinner">
+                <svg viewBox="25 25 50 50">
+                    <circle cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10" />
+                </svg>
+            </div>
+        </div>
+
+        <header class="header">
+            <div class="navigation-trigger hidden-xl-up" data-ma-action="aside-open" data-ma-target=".sidebar">
+                <div class="navigation-trigger__inner">
+                    <i class="navigation-trigger__line"></i>
+                    <i class="navigation-trigger__line"></i>
+                    <i class="navigation-trigger__line"></i>
+                </div>
+            </div>
+
+            <div class="header__logo hidden-sm-down">
+                <h1>
+                    <a href="index.html"><img class="img-fluid" src="demo/img/logo-files/sacco-orange.png"></a>
+                </h1>
+            </div>
+
+            <form class="search">
+                <div class="search__inner">
+                    <input type="text" class="search__text" placeholder="Search through the dashboard">
+                    <i class="zmdi zmdi-search search__helper" data-ma-action="search-close"></i>
+                </div>
+            </form>
+
+            <ul class="top-nav">
+                <li class="dropdown top-nav__notifications">
+                    <a href="#" data-toggle="dropdown" class="top-nav__notify">
+                        <i class="mdi mdi-bell-outline"></i>
+                        <span class="pl-2">Notifications</span><strong class="ml-2 text-danger">3</strong>
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right dropdown-menu--block">
+                        <div class="listview listview--hover">
+                            <div class="listview__header">
+                                Unread Notifications
+
+                                <div class="actions">
+                                    <a href="#" class="actions__item zmdi zmdi-check-all"
+                                        data-ma-action="notifications-clear"></a>
+                                </div>
+                            </div>
+
+
+                            <div class="listview__scroll scrollbar-inner">
+                                <a href="#" class="listview__item">
+                                    <img src="demo/img/profile-pics/1.jpg" class="listview__img" alt="">
+
+                                    <div class="listview__content">
+                                        <div class="listview__heading">David Belle</div>
+                                        <p>Cum sociis natoque penatibus et magnis dis parturient montes</p>
+                                    </div>
+                                </a>
+
+                                <a href="#" class="listview__item">
+                                    <img src="demo/img/profile-pics/2.jpg" class="listview__img" alt="">
+
+                                    <div class="listview__content">
+                                        <div class="listview__heading">Jonathan Morris</div>
+                                        <p>Nunc quis diam diamurabitur at dolor elementum, dictum turpis vel</p>
+                                    </div>
+                                </a>
+
+                                <a href="#" class="listview__item">
+                                    <img src="demo/img/profile-pics/3.jpg" class="listview__img" alt="">
+
+                                    <div class="listview__content">
+                                        <div class="listview__heading">Fredric Mitchell Jr.</div>
+                                        <p>Phasellus a ante et est ornare accumsan at vel magnauis blandit turpis at
+                                            augue ultricies</p>
+                                    </div>
+                                </a>
+
+                                <a href="#" class="listview__item">
+                                    <img src="demo/img/profile-pics/4.jpg" class="listview__img" alt="">
+
+                                    <div class="listview__content">
+                                        <div class="listview__heading">Glenn Jecobs</div>
+                                        <p>Ut vitae lacus sem ellentesque maximus, nunc sit amet varius dignissim, dui
+                                            est consectetur neque</p>
+                                    </div>
+                                </a>
+                                <a href="#" class="listview__item">
+                                    <img src="demo/img/profile-pics/4.jpg" class="listview__img" alt="">
+
+                                    <div class="listview__content">
+                                        <div class="listview__heading">Glenn Jecobs</div>
+                                        <p>Ut vitae lacus sem ellentesque maximus, nunc sit amet varius dignissim, dui
+                                            est consectetur neque</p>
+                                    </div>
+                                </a>
+
+
+                            </div>
+
+                            <div class="listview__header">
+                                <a class="btn btn-info btn--icon-text btn-block text-white">View all <i
+                                        class="zmdi zmdi-arrow-right"></i> </a>
+                            </div>
+
+
+                            <div class="p-1"></div>
+                        </div>
+                    </div>
+                </li>
+                <a href="#" class="btn btn-warning text-black btn--icon-text btn-sm ml-3"><i
+                        class="zmdi zmdi-edit"></i>Onboard Sacco</a>
+
+                <li class="dropdown">
+                    <a href="#" data-toggle="dropdown" class="rad-50"><img src="demo/img/profile-pics/1.jpg"
+                            class="listview__img m-0" style="height: 32px;" alt="profile picture"></a>
+                    <div class="dropdown-menu dropdown-menu-right dropdown-menu--block">
+                        <div class="listview listview--hover acc-options">
+
+                            <a href="#" class="listview__item">
+                                <img src="demo/img/profile-pics/1.jpg" class="listview__img" alt="profile picture">
+
+                                <div class="listview__content">
+                                    <div class="listview__heading">
+                                        John Doe
+                                    </div>
+                                    <p>johndoe@email.com</p>
+                                </div>
+                            </a>
+                            <hr>
+                            <div class="listview__item">
+                                <div class="listview__content">
+                                    <div class="listview__heading">
+                                        <a><i class="ti-unlock"></i><span>Change Password</span></a>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="listview__item">
+                                <div class="listview__content">
+                                    <div class="listview__heading">
+                                        <a><i class="ti-power-off"></i><span>Logout</span></a>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </li>
+
+            </ul>
+
+        </header>
+
+        <aside class="sidebar px-0 pt-0">
+            <div class="header__logo sidebar_logo">
+                <a href="index.html">
+                    <img class="img-fluid" src="demo/img/logo-files/sacco-benki-white.png">
+                </a>
+                <h1 class="mb-1">
+                    <a class="text-white">SaccoBenki</a>
+                    <p class="text-white">Management Dashboard</p>
+                </h1>
+            </div>
+            <div class="scrollbar-inner">
+                <div class="user">
+                    <div class="user__info" data-toggle="dropdown">
+                        <img class="user__img" src="demo/img/profile-pics/8.jpg" alt="">
+                        <div>
+                            <div class="user__name">Malinda Hollaway</div>
+                            <div class="user__email">malinda-h@gmail.com</div>
+                        </div>
+                    </div>
+
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">View Profile</a>
+                        <a class="dropdown-item" href="#">Settings</a>
+                        <a class="dropdown-item" href="#">Logout</a>
+                    </div>
+                </div>
+
+                <ul class="navigation">
+                    <li class="navigation__active"><a href="index.html"><i class="flaticon-bar-chart"></i>Dashboard</a>
+                    </li>
+                    <li class="navigation__active"><a href="system_usage.html"><i class="mdi mdi-chart-arc"></i>System Usage</a></li>
+
+
+
+                    <li class="navigation__sub">
+                        <a href="#"><i class="zmdi zmdi-swap"></i>Transactions<i
+                                class="zmdi zmdi-caret-down drop-down-icon"></i></a>
+                        <ul class="">
+                            <li><a href="all-transactions.html"><i class="mdi mdi-cash-plus mx-2"></i>All</a></li>
+                            <li><a href="deposit-transactions.html"><i class="mdi mdi-cash-plus mx-2"></i>Deposits</a>
+                            </li>
+                            <li><a href="withdraw-transactions.html"><i
+                                        class="mdi mdi-cash-plus mx-2"></i>Withdrawals</a></li>
+                            <li><a href="reconciled.html"><i class="mdi mdi-cash-plus mx-2"></i>Reconciled</a></li>
+                            <li><a href="unreconciled.html"><i class="mdi mdi-cash-plus mx-2"></i>Unreconciled</a></li>
+
+
+                        </ul>
+                    </li>
+                    <li class="navigation__sub">
+                        <a href="#"><i class="mdi mdi-chart-tree"></i>Reports <i
+                                class="zmdi zmdi-caret-down drop-down-icon"></i></a>
+                        <ul class="">
+
+                            <li><a href="institutions.html"><i
+                                        class="mdi mdi-account-multiple-outline mx-2"></i>Institutions</a></li>
+                            <li><a href="collections-reports.html"><i class="mdi mdi-cash-plus mx-2"></i>Collections</a>
+                            </li>
+                            <li><a href="dispatch-reports.html"><i class="mdi mdi-cash-minus mx-2"></i>Dispatch</a>
+                            </li>
+                            <li><a href="savings_reports.html"><i class="mdi mdi-cash-lock mx-2"></i>Savings</a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="navigation__active mt-1"><a href="landing.html"><i class="zmdi zmdi-power"></i>Logout</a>
+                    </li>
+                </ul>
+            </div>
+        </aside>
+
+        <section class="content">
+            <header class="content__title px-0 border-0">
+                <h4 class="p-0 mb-0 cl">Savings Report</h4>
+                <div class="">
+                    <ol class="breadcrumb border-0">
+                        <li class="breadcrumb-item">Home</li>
+                        <li class="breadcrumb-item">Report</li>
+                        <li class="breadcrumb-item active">Savings</li>
+
+                    </ol>
+                </div>
+            </header>
+
+            <div class="px-0 border-0">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="card">
+                                    <div class="card-header">
+                                        <div class="row">
+                                            <div class="col-sm-12 col-lg-6">
+                                                <h4>Sacco Savings</h4>
+                                                <p>The table below shows a list on the several sacco savings report
+                                                </p>
+                                            </div>
+                                            <div class="col-sm-12 col-lg-6">
+                                                <label class="font-10px d-flex justify-content-end">Filter By:</label>
+                                                <div class="Table-Filter">
+                                                    <select title="Select Sacco"
+                                                        class="selectpicker item hero__form-input form-control custom-select">
+                                                        <option>Chamaendeleo</option>
+                                                        <option>Maisha Bora</option>
+                                                        <option>Wasichana</option>
+                                                    </select>
+                                                    <div class="actions d-flex item">
+                                                        <div id="reportrange" class="text-nowrap"
+                                                            style="cursor: pointer; padding: 5px 10px; border: 1px solid #ccc; width: 100%">
+                                                            <i class="ti-calendar"></i>&nbsp;
+                                                            <span></span> <i class="fa fa-caret-down"></i>
+                                                        </div>
+                                                        <button class="btn btn-success d-none text-nowrap "
+                                                            id="date-reset" onclick="reset_date()">Reset
+                                                            Date</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="card-body">
+                                        <div class="table-responsive">
+                                            <table class="table table-sm table-bordered input-table table-striped"
+                                                id="data-table">
+                                                <thead class=" thead-dark">
+                                                    <tr>
+                                                        <th scope="text-capitalize">Date</th>
+                                                        <th scope="text-capitalize">Transaction Code</th>
+                                                        <th class="text-capitalize">amount</th>
+                                                        <th class="text-capitalize">account Reference</th>
+                                                        <th class="text-capitalize">sacco name</th>
+                                                        <th class="text-capitalize text-right">Action</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>TRS-001256</td>
+                                                        <td>24 Feb 2021 12:00AM</td>
+                                                        <td>KES 250,000</td>
+                                                        <td>ACC-1235895</td>
+                                                        <td>Maisha Bora</td>
+                                                        <td>
+                                                            <a href="" class="btn btn-success btn-sm btn--icon-text"><i
+                                                                    class="zmdi zmdi-print mr-2"></i>Print</a>
+                                                            <a href="" class="btn btn-info btn-sm btn--icon-text"><i
+                                                                    class="zmdi zmdi-eye mr-2"></i>Details</a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>TRS-001256</td>
+                                                        <td>24 Feb 2021 12:00AM</td>
+                                                        <td>KES 250,000</td>
+                                                        <td>ACC-1235895</td>
+                                                        <td>Chamaendeleo</td>
+                                                        <td>
+                                                            <a href="" class="btn btn-success btn-sm btn--icon-text"><i
+                                                                    class="zmdi zmdi-print mr-2"></i>Print</a>
+                                                            <a href="" class="btn btn-info btn-sm btn--icon-text"><i
+                                                                    class="zmdi zmdi-eye mr-2"></i>Details</a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>TRS-001256</td>
+                                                        <td>24 Feb 2021 12:00AM</td>
+                                                        <td>KES 250,000</td>
+                                                        <td>ACC-1235895</td>
+                                                        <td>Kenya Bankers</td>
+                                                        <td>
+                                                            <a href="" class="btn btn-success btn-sm btn--icon-text"><i
+                                                                    class="zmdi zmdi-print mr-2"></i>Print</a>
+                                                            <a href="" class="btn btn-info btn-sm btn--icon-text"><i
+                                                                    class="zmdi zmdi-eye mr-2"></i>Details</a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>TRS-001256</td>
+                                                        <td>24 Feb 2021 12:00AM</td>
+                                                        <td>KES 250,000</td>
+                                                        <td>ACC-1235895</td>
+                                                        <td>Jamii Bora</td>
+                                                        <td>
+                                                            <a href="" class="btn btn-success btn-sm btn--icon-text"><i
+                                                                    class="zmdi zmdi-print mr-2"></i>Print</a>
+                                                            <a href="" class="btn btn-info btn-sm btn--icon-text"><i
+                                                                    class="zmdi zmdi-eye mr-2"></i>Details</a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>TRS-001256</td>
+                                                        <td>24 Feb 2021 12:00AM</td>
+                                                        <td>KES 250,000</td>
+                                                        <td>ACC-1235895</td>
+                                                        <td>Kenya Police Sacco</td>
+                                                        <td>
+                                                            <a href="" class="btn btn-success btn-sm btn--icon-text"><i
+                                                                    class="zmdi zmdi-print mr-2"></i>Print</a>
+                                                            <a href="" class="btn btn-info btn-sm btn--icon-text"><i
+                                                                    class="zmdi zmdi-eye mr-2"></i>Details</a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>TRS-001256</td>
+                                                        <td>24 Feb 2021 12:00AM</td>
+                                                        <td>KES 250,000</td>
+                                                        <td>ACC-1235895</td>
+                                                        <td>Harambee Sacco</td>
+                                                        <td>
+                                                            <a href="" class="btn btn-success btn-sm btn--icon-text"><i
+                                                                    class="zmdi zmdi-print mr-2"></i>Print</a>
+                                                            <a href="" class="btn btn-info btn-sm btn--icon-text"><i
+                                                                    class="zmdi zmdi-eye mr-2"></i>Details</a>
+                                                        </td>
+                                                    </tr>
+
+
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <footer class="footer hidden-xs-down">
+                <p>Powered by</p>
+                <center>
+                    <a class="nouveta-logoo" href="https://nouveta.tech/">
+                        <img src="demo/img/logo-files/nouveta_logo.png" target="new">
+                    </a>
+                </center>
+            </footer>
+        </section>
+
+    </main>
+
+    <!-- Older IE warning message -->
+    <!--[if IE]>
+                <div class="ie-warning">
+                    <h1>Warning!!</h1>
+                    <p>You are using an outdated version of Internet Explorer, please upgrade to any of the following web browsers to access this website.</p>
+
+                    <div class="ie-warning__downloads">
+                        <a href="http://www.google.com/chrome">
+                            <img src="img/browsers/chrome.png" alt="">
+                        </a>
+
+                        <a href="https://www.mozilla.org/en-US/firefox/new">
+                            <img src="img/browsers/firefox.png" alt="">
+                        </a>
+
+                        <a href="http://www.opera.com">
+                            <img src="img/browsers/opera.png" alt="">
+                        </a>
+
+                        <a href="https://support.apple.com/downloads/safari">
+                            <img src="img/browsers/safari.png" alt="">
+                        </a>
+
+                        <a href="https://www.microsoft.com/en-us/windows/microsoft-edge">
+                            <img src="img/browsers/edge.png" alt="">
+                        </a>
+
+                        <a href="http://windows.microsoft.com/en-us/internet-explorer/download-ie">
+                            <img src="img/browsers/ie.png" alt="">
+                        </a>
+                    </div>
+                    <p>Sorry for the inconvenience!</p>
+                </div>
+            <![endif]-->
+
+    <!-- Javascript -->
+    <!-- ../vendors -->
+    <script src="vendors/jquery/jquery.min.js"></script>
+    <script src="vendors/popper.js/popper.min.js"></script>
+    <script src="vendors/bootstrap/js/bootstrap.min.js"></script>
+    <script src="vendors/jquery-scrollbar/jquery.scrollbar.min.js"></script>
+    <script src="vendors/jquery-scrollLock/jquery-scrollLock.min.js"></script>
+    <script src="vendors/bootstrap-select/js/bootstrap-select.min.js"></script>
+
+    <script src="vendors/flot/jquery.flot.js"></script>
+    <script src="vendors/flot/jquery.flot.resize.js"></script>
+    <script src="vendors/flot.curvedlines/curvedLines.js"></script>
+    <script src="vendors/jqvmap/jquery.vmap.min.js"></script>
+    <script src="vendors/jqvmap/maps/jquery.vmap.world.js"></script>
+    <script src="vendors/easy-pie-chart/jquery.easypiechart.min.js"></script>
+    <script src="vendors/salvattore/salvattore.min.js"></script>
+    <script src="vendors/sparkline/jquery.sparkline.min.js"></script>
+    <script src="vendors/moment/moment.min.js"></script>
+    <script src="vendors/daterangepicker/daterangepicker.min.js"></script>
+    <script src="vendors/fullcalendar/fullcalendar.min.js"></script>
+
+
+    <!-- Charts and maps-->
+    <script src="demo/js/flot-charts/curved-line.js"></script>
+    <script src="demo/js/flot-charts/dynamic.js"></script>
+    <script src="demo/js/flot-charts/line.js"></script>
+    <script src="demo/js/flot-charts/chart-tooltips.js"></script>
+    <script src="demo/js/other-charts.js"></script>
+    <script src="demo/js/jqvmap.js"></script>
+
+
+    <!-- Highchart Scripts Vendors -->
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/highcharts-more.js"></script>
+
+    <script src="https://code.highcharts.com/modules/exporting.js"></script>
+    <script src="https://code.highcharts.com/modules/heatmap.js"></script>
+    <script src="https://code.highcharts.com/modules/exporting.js"></script>
+    <script src="https://code.highcharts.com/modules/export-data.js"></script>
+    <script src="https://code.highcharts.com/modules/solid-gauge.js"></script>
+    <script src="https://code.highcharts.com/modules/accessibility.js"></script>
+    <script src="https://code.highcharts.com/modules/offline-exporting.js"></script>
+
+    <script src="vendors/highcharts/accesibility.js"></script>
+    <script src="vendors/highcharts/item-series.js"></script>
+    <script src="vendors/highcharts/streamgraph.js"></script>
+    <script src="vendors/highcharts/series-label.js"></script>
+    <script src="vendors/highcharts/annotations.js"></script>
+    <script src="vendors/slick/slick.min.js"></script>
+
+    <!-- Vendors: Data tables -->
+    <script src="vendors/datatables/jquery.dataTables.min.js"></script>
+    <script src="vendors/datatables-buttons/dataTables.buttons.min.js"></script>
+    <script src="vendors/datatables-buttons/buttons.print.min.js"></script>
+    <script src="vendors/jszip/jszip.min.js"></script>
+    <script src="vendors/datatables-buttons/buttons.html5.min.js"></script>
+
+    <!-- <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script> -->
+
+
+    <!-- Highchart Scripts js -->
+    <script src="js/highcharts/theme1.js"></script>
+    <script src="js/highcharts/bullet.js"></script>
+
+
+
+    <!-- high chart data -->
+    <script src="js/chart-data/all-loans.js"></script>
+    <script src="js/chart-data/loan-breakdown.js"></script>
+    <script src="js/chart-data/loan-summary.js"></script>
+    <script src="js/chart-data/active-loans.js"></script>
+    <script src="js/chart-data/perfomance.js"></script>
+    <script src="js/chart-data/ongoing-loans.js"></script>
+    <script src="js/chart-data/transaction-data.js"></script>
+    <script src="js/chart-data/members-activity.js"></script>
+    <script src="js/chart-data/transaction-activity.js"></script>
+
+    <script src="js/chart-data/thisMonthLoanPerfomance.js"></script>
+
+    <!-- App functions and actions -->
+    <script src="js/app.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/wow.js"></script>
+
+</body>
+
+<!-- Mirrored from byrushan.com/projects/material-admin/app/2.6/top-navigation.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 26 Jul 2019 11:35:00 GMT -->
+
+</html>

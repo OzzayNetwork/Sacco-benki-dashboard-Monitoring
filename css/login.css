@@ -1,0 +1,316 @@
+/*		alert box styling*/
+.cancel-icon {
+    cursor: pointer;
+    transition-duration: .5s;
+    display: none;
+    float: right;
+}
+.cancel-icon:hover {
+    background: #ffffff33;
+    border-radius: 50%;
+    color: white;
+}
+.kev-alert:hover .cancel-icon {
+    display: flex;
+}
+.kev-alert {
+    background-color: #262626;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    box-shadow: 0px 20px 40px -12px rgba(0, 0, 0, 0.35);
+    width: 300px;
+}
+.kev-alert p, .cancel-icon {
+    color: #a8a8a8;
+    font-size: 12px;
+}
+.kev-alert .msg-title {
+    font-size: 16px;
+    color: white;
+}
+.light-box {
+    box-shadow: 0px 20px 40px -12px rgba(255, 255, 255, 0.35);
+}
+/*		login button styling*/
+		
+.mb-24rem {
+    margin-bottom: -15px !important;
+}
+.login-btn {
+    background: #fcc200;
+    border-radius: 0px;
+    color: #212529;
+    transition-duration: 0.8s;
+    font-weight: 400;
+    transition-duration: 0.8s !important;
+}
+.login-btn:hover {
+    background-color: #fcda00;
+}
+.login-btn:hover #login-btnk {
+    margin-left: 30px !important;
+}
+#login-btnk {
+    transition-duration: 0.8s !important;
+}
+/*		custom input design*/
+		
+.hide-overflow {
+    overflow: hidden;
+}
+.input100 {
+    display: block;
+    width: 100%;
+    background: transparent;
+    font-size: 18px;
+    color: #333333;
+    line-height: 1.2;
+    padding: 0 5px;
+    outline: none;
+    border: none;
+}
+.label-input100 {
+    font-size: 13px;
+    color: #666666;
+    line-height: 1.5;
+    padding-left: 5px;
+}
+.focus-input100 {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+}
+.wrap-input100 {
+    width: 100%;
+    position: relative;
+    border-bottom: 2px solid #d9d9d9;
+    padding-bottom: 13px;
+    margin-bottom: 27px;
+}
+.validate-input {
+    position: relative;
+}
+/*//////////////////////////////////////////////////////////////////
+[ Contact ]*/
+		
+.container-contact100 {
+    width: 100%;
+    min-height: 100vh;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    background: #a64bf4;
+    background: -webkit-linear-gradient(45deg, #00dbde, #fc00ff);
+    background: -o-linear-gradient(45deg, #00dbde, #fc00ff);
+    background: -moz-linear-gradient(45deg, #00dbde, #fc00ff);
+    background: linear-gradient(45deg, #00dbde, #fc00ff);
+}
+.wrap-contact100 {
+    width: 500px;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 42px 55px 45px 55px;
+}
+/*------------------------------------------------------------------
+[ Form ]*/
+		
+.contact100-form {
+    width: 100%;
+}
+.contact100-form-title {
+    display: block;
+    /* font-family: Poppins-Bold; */
+    font-size: 22px;
+    color: white;
+    line-height: 1.2;
+/*    text-align: center;*/
+    padding-bottom: px;
+}
+/*------------------------------------------------------------------
+[ Input ]*/
+		
+.wrap-input100 {
+    width: 100%;
+    position: relative;
+    border-bottom: 2px solid #d9d9d9;
+    padding-bottom: 13px;
+    margin-bottom: 60px;
+}
+.label-input100 {
+    font-size: 12px;
+    color: #666666;
+    line-height: 1.5;
+    padding-left: 5px;
+    float: left;
+}
+.input100 {
+    display: block;
+    width: 100%;
+    background: transparent;
+    font-size: 14px;
+    color: #333333;
+    line-height: 1.2;
+    padding: 0 5px;
+}
+.focus-input100 {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+}
+.focus-input100::before {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+    background: #7f7f7f;
+}
+/*---------------------------------------------*/
+		
+textarea.input100 {
+    min-height: 110px;
+    padding-top: 9px;
+    padding-bottom: 13px;
+}
+.input100:focus+ .focus-input100::before {
+    width: 100%;
+}
+.has-val.input100+ .focus-input100::before {
+    width: 100%;
+}
+/*------------------------------------------------------------------
+[ Button ]*/
+		
+.container-contact100-form-btn {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 13px;
+}
+.wrap-contact100-form-btn {
+    width: 100%;
+    display: block;
+    position: relative;
+    z-index: 1;
+    border-radius: 25px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.contact100-form-bgbtn {
+    position: absolute;
+    z-index: -1;
+    width: 300%;
+    height: 100%;
+    background: #a64bf4;
+    background: -webkit-linear-gradient(left, #00dbde, #fc00ff, #00dbde, #fc00ff);
+    background: -o-linear-gradient(left, #00dbde, #fc00ff, #00dbde, #fc00ff);
+    background: -moz-linear-gradient(left, #00dbde, #fc00ff, #00dbde, #fc00ff);
+    background: linear-gradient(left, #00dbde, #fc00ff, #00dbde, #fc00ff);
+    top: 0;
+    left: -100%;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+}
+.contact100-form-btn {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    width: 100%;
+    height: 50px;
+    font-size: 16px;
+    color: #fff;
+    line-height: 1.2;
+}
+.wrap-contact100-form-btn:hover .contact100-form-bgbtn {
+    left: 0;
+}
+.contact100-form-btn i {
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+}
+.contact100-form-btn:hover i {
+    -webkit-transform: translateX(10px);
+    -moz-transform: translateX(10px);
+    -ms-transform: translateX(10px);
+    -o-transform: translateX(10px);
+    transform: translateX(10px);
+}
+		
+		
+		
+/*		editing autofilled textboxes*/
+		/* Change the white to any color ;) */
+input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus, input:-webkit-autofill:active {
+ -webkit-box-shadow: 0 0 0 30px white inset !important;
+}
+#email:focus .name-lable {
+    color: #29a76e !important;
+}
+#email:focus .name-lable {
+    color: #29a76e !important;
+}
+input:focus .pass-lable {
+    color: #29a76e !important;
+}
+.login__block__header p {
+    font-size: 14px;
+    padding: 0px;
+    margin: 0px;
+}
+header {
+    min-height: 100vh;
+}
+
+.login__block__header{
+	background: #28388d;
+    padding: 1.5rem;
+    text-align: left;
+}
+
+.login__block{
+	background: white;
+}
+
+
+.text-black{
+	color: black;
+}
+
+.login__block h3 strong{
+	font-weight: bold;
+}

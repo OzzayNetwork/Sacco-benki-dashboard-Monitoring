@@ -1,0 +1,186 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 20/09/2020 08:06
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff2") format("woff2"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-key:before { content: "\f100"; }
+.flaticon-pin:before { content: "\f101"; }
+.flaticon-location:before { content: "\f102"; }
+.flaticon-route:before { content: "\f103"; }
+.flaticon-delivery:before { content: "\f104"; }
+.flaticon-pie-chart:before { content: "\f105"; }
+.flaticon-report:before { content: "\f106"; }
+.flaticon-key-1:before { content: "\f107"; }
+.flaticon-key-2:before { content: "\f108"; }
+.flaticon-key-3:before { content: "\f109"; }
+.flaticon-key-5:before { content: "\f10a"; }
+.flaticon-smart-key:before { content: "\f10b"; }
+.flaticon-key-6:before { content: "\f10c"; }
+.flaticon-parking:before { content: "\f10d"; }
+.flaticon-logout:before { content: "\f10e"; }
+.flaticon-logout-1:before { content: "\f10f"; }
+.flaticon-login:before { content: "\f110"; }
+.flaticon-login-1:before { content: "\f111"; }
+.flaticon-smartphone:before { content: "\f112"; }
+.flaticon-phone:before { content: "\f113"; }
+.flaticon-car:before { content: "\f114"; }
+.flaticon-more:before { content: "\f115"; }
+.flaticon-road:before { content: "\f116"; }
+.flaticon-left-chevron:before { content: "\f117"; }
+.flaticon-loop:before { content: "\f118"; }
+.flaticon-like:before { content: "\f119"; }
+.flaticon-scale:before { content: "\f11a"; }
+.flaticon-parking-1:before { content: "\f11b"; }
+.flaticon-locked-car:before { content: "\f11c"; }
+.flaticon-no-parking:before { content: "\f11d"; }
+.flaticon-crane:before { content: "\f11e"; }
+.flaticon-car-alarm:before { content: "\f11f"; }
+.flaticon-parking-barrier:before { content: "\f120"; }
+.flaticon-parking-2:before { content: "\f121"; }
+.flaticon-parking-3:before { content: "\f122"; }
+.flaticon-parking-4:before { content: "\f123"; }
+.flaticon-car-insurance:before { content: "\f124"; }
+.flaticon-car-1:before { content: "\f125"; }
+.flaticon-parking-5:before { content: "\f126"; }
+.flaticon-parking-area:before { content: "\f127"; }
+.flaticon-mobile:before { content: "\f128"; }
+.flaticon-airport:before { content: "\f129"; }
+.flaticon-parking-6:before { content: "\f12a"; }
+.flaticon-flag:before { content: "\f12b"; }
+.flaticon-bar-chart:before { content: "\f12c"; }
+.flaticon-parking-7:before { content: "\f12d"; }
+.flaticon-traffic:before { content: "\f12e"; }
+.flaticon-hook:before { content: "\f12f"; }
+.flaticon-password:before { content: "\f130"; }
+.flaticon-verified:before { content: "\f131"; }
+.flaticon-calendar:before { content: "\f132"; }
+.flaticon-open:before { content: "\f133"; }
+.flaticon-box:before { content: "\f134"; }
+.flaticon-location-1:before { content: "\f135"; }
+.flaticon-parking-8:before { content: "\f136"; }
+.flaticon-shield:before { content: "\f137"; }
+.flaticon-timeline:before { content: "\f138"; }
+.flaticon-register:before { content: "\f139"; }
+.flaticon-timer:before { content: "\f13a"; }
+.flaticon-register-1:before { content: "\f13b"; }
+.flaticon-error:before { content: "\f13c"; }
+.flaticon-register-2:before { content: "\f13d"; }
+.flaticon-register-3:before { content: "\f13e"; }
+.flaticon-register-4:before { content: "\f13f"; }
+.flaticon-article:before { content: "\f140"; }
+.flaticon-checklist:before { content: "\f141"; }
+.flaticon-register-5:before { content: "\f142"; }
+.flaticon-search:before { content: "\f143"; }
+.flaticon-question-mark:before { content: "\f144"; }
+.flaticon-register-6:before { content: "\f145"; }
+.flaticon-register-7:before { content: "\f146"; }
+.flaticon-register-8:before { content: "\f147"; }
+.flaticon-gift:before { content: "\f148"; }
+    
+    $font-Flaticon-key: "\f100";
+    $font-Flaticon-pin: "\f101";
+    $font-Flaticon-location: "\f102";
+    $font-Flaticon-route: "\f103";
+    $font-Flaticon-delivery: "\f104";
+    $font-Flaticon-pie-chart: "\f105";
+    $font-Flaticon-report: "\f106";
+    $font-Flaticon-key-1: "\f107";
+    $font-Flaticon-key-2: "\f108";
+    $font-Flaticon-key-3: "\f109";
+    $font-Flaticon-key-5: "\f10a";
+    $font-Flaticon-smart-key: "\f10b";
+    $font-Flaticon-key-6: "\f10c";
+    $font-Flaticon-parking: "\f10d";
+    $font-Flaticon-logout: "\f10e";
+    $font-Flaticon-logout-1: "\f10f";
+    $font-Flaticon-login: "\f110";
+    $font-Flaticon-login-1: "\f111";
+    $font-Flaticon-smartphone: "\f112";
+    $font-Flaticon-phone: "\f113";
+    $font-Flaticon-car: "\f114";
+    $font-Flaticon-more: "\f115";
+    $font-Flaticon-road: "\f116";
+    $font-Flaticon-left-chevron: "\f117";
+    $font-Flaticon-loop: "\f118";
+    $font-Flaticon-like: "\f119";
+    $font-Flaticon-scale: "\f11a";
+    $font-Flaticon-parking-1: "\f11b";
+    $font-Flaticon-locked-car: "\f11c";
+    $font-Flaticon-no-parking: "\f11d";
+    $font-Flaticon-crane: "\f11e";
+    $font-Flaticon-car-alarm: "\f11f";
+    $font-Flaticon-parking-barrier: "\f120";
+    $font-Flaticon-parking-2: "\f121";
+    $font-Flaticon-parking-3: "\f122";
+    $font-Flaticon-parking-4: "\f123";
+    $font-Flaticon-car-insurance: "\f124";
+    $font-Flaticon-car-1: "\f125";
+    $font-Flaticon-parking-5: "\f126";
+    $font-Flaticon-parking-area: "\f127";
+    $font-Flaticon-mobile: "\f128";
+    $font-Flaticon-airport: "\f129";
+    $font-Flaticon-parking-6: "\f12a";
+    $font-Flaticon-flag: "\f12b";
+    $font-Flaticon-bar-chart: "\f12c";
+    $font-Flaticon-parking-7: "\f12d";
+    $font-Flaticon-traffic: "\f12e";
+    $font-Flaticon-hook: "\f12f";
+    $font-Flaticon-password: "\f130";
+    $font-Flaticon-verified: "\f131";
+    $font-Flaticon-calendar: "\f132";
+    $font-Flaticon-open: "\f133";
+    $font-Flaticon-box: "\f134";
+    $font-Flaticon-location-1: "\f135";
+    $font-Flaticon-parking-8: "\f136";
+    $font-Flaticon-shield: "\f137";
+    $font-Flaticon-timeline: "\f138";
+    $font-Flaticon-register: "\f139";
+    $font-Flaticon-timer: "\f13a";
+    $font-Flaticon-register-1: "\f13b";
+    $font-Flaticon-error: "\f13c";
+    $font-Flaticon-register-2: "\f13d";
+    $font-Flaticon-register-3: "\f13e";
+    $font-Flaticon-register-4: "\f13f";
+    $font-Flaticon-article: "\f140";
+    $font-Flaticon-checklist: "\f141";
+    $font-Flaticon-register-5: "\f142";
+    $font-Flaticon-search: "\f143";
+    $font-Flaticon-question-mark: "\f144";
+    $font-Flaticon-register-6: "\f145";
+    $font-Flaticon-register-7: "\f146";
+    $font-Flaticon-register-8: "\f147";
+    $font-Flaticon-gift: "\f148";

@@ -1,0 +1,71 @@
+
+	.txt-box-container{
+		position: relative;
+	}
+	
+	.txt-box-container input, .txt-box-container select{
+		padding-left: 30px !important;
+    border: 1px solid;
+    border-color: #8d9195 !important;
+	}
+	
+	.txt-box-container .form-control:focus {
+    color: #495057;
+     border-color: #8d9195 !important;
+    outline: 0;
+    box-shadow: none;
+}
+	
+	
+	.calendar-txt-icon{
+		position: absolute;
+    left: 0;
+    bottom: 10px;
+    left: 3px;
+    color: #8d9195;
+	}
+	
+	.txt-box-container svg{
+		height: 15px;
+		opacity: 0.7;
+	}
+	
+	.label-input100 {
+    font-size: 12px;
+    color: #666666;
+    line-height: 1.5;
+    padding-left: 5px;
+    float: left;
+}
+	
+	.btn-200{
+		color: white !important;
+    background: #32c787 !important;
+		border: none !important;
+	}
+	
+	.btn-200 svg{
+		font-size: 15px;
+    height: 21px;
+	}
+	.btn-200:hover{
+		background: #009a58 !important;
+		border: none !important;
+	}
+	
+	.filter-row{
+		
+	}
+
+.img-opacity, .search-svg{
+	opacity: 0.3;
+}
+	
+	/* On screens that are 768px or less, set the background color to olive */
+@media screen and (max-width: 768px) {
+  .filter-row{
+	  justify-content: flex-start !important;
+		
+	}
+}
+	
